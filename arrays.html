@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script>
+           // Question 1;
+            // var a = [[],[],[]];
+            // console.log(a);
+
+            //Question 2;
+            // var b = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+            // console.log(b);
+
+            //Question 3;
+            // for(i=1;i<=10;i++){
+            // console.log(i);
+            // }
+
+            //Question 4;
+            // var a = prompt("Enter A Number To Show A Multiplication Table");
+            // var length = prompt("Enter Length Table");
+            // for (i=1;i<=length;i++){
+            //      console.log(a+"*"+i+"="+a);
+            // }
+
+            //Question 5;
+            // var fruits = ['apple','banana','orange','mango','pineapple'];
+            // for (i=0;i<5;i++) {
+            //     console.log("Element Of Index "+i+" is "+fruits[i]);
+            // }
+
+            //Question 6;
+            // for(a=1;a<=15;a++){
+            //    document.write(a+" ");
+            // }
+
+            // document.write("</br>");
+            // for(b=10;b>=1;b--){
+            //     document.write(b+" ");
+            // }
+
+
+            var arr = [["Pakistan"],["Srilanka"],["Afghanistan"],["China"]];
+            for(i=0;i<arr.length;i++){
+                for(j=0;j<arr[i].length;j++){
+                    arr[i][j] = arr[i][j].replace(/an/gi,"al");
+                    console.log(arr);
+                }
+            }
+        </script>
+    </head>
+</html>
